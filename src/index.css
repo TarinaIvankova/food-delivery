@@ -11,3 +11,116 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  width: 500px;
+}
+.component {
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.mainComponent{
+  display: flex;
+}
+.name1, .price1 {
+  width: 200px;
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartTwo {
+  display: flex;
+  justify-content: flex-start;
+}
+.dishesname {
+  width: 150px;
+}
+.quantity {
+  width: 100px;
+}
+.price {
+  width: 100px;
+}
+.delete {
+  width: 20px;
+  height: 20px;
+  margin-top: 26px;
+  margin-left: 20px;
+}
+.cartIcon {
+  width: 70px;
+}
+.categoryButton {
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+.categoryButton:hover {
+  background-color: #fdeb6b;
+  box-shadow: 1px 2px 4px yellow;
+}
+.categoryButtonSelected {
+  background-color: #6bfd81;
+  box-shadow: 1px 2px 4px green;
+}
+.categoryButtonSelected:hover {
+  background-color: #6bfd81;
+  box-shadow: 1px 2px 4px green;
+}
+p, h1, h2, button {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+h3, h1{
+  color: #13441b;
+  text-shadow: 1px 1px #6bfd81;
+  font-family: 'Lato', sans-serif;
+}
+button {
+  background-color: #6bfd81;
+border: none;
+margin-top: 5px;
+}
+.btn {
+display: flex;
+justify-content: center;
+height: 50px;
+margin-right: 50px;
+}
+
+.plus, .minus {
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 1px 2px 4px green;
+  border-radius: 50%;
+}
+.addToCart{
+  margin-bottom: 5px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  box-shadow: 1px 2px 4px green;
+}
+.add {
+  display: flex;
+}
+.icon {
+  width: 20px;
+}
