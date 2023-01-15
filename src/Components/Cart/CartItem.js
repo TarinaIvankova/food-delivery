@@ -20,7 +20,7 @@ const dispatch=useDispatch();
     </div>
     <div className="delete">
       <span onClick={()=>dispatch(removeItemFromCart({cartItemId: cartItem.id}))}>
-      <img className="icon" src="https://img.icons8.com/ios-filled/512/delete-sign.png"/> 
+      <img className="icon" src="https://img.icons8.com/ios-filled/512/delete-sign.png" alt="iconka2"/> 
       </span>
     </div>
     </div>)

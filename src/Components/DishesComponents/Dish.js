@@ -18,7 +18,7 @@ const handleClick=()=>{
     return (
 <div className="component">
     
-    <img src={`${dish.img}.jpeg`}/>
+    <img src={`${dish.img}.jpeg`} alt="kartinki"/>
     <div className="mainComponent">
         <div className="name1">
     <h2>{dish.name} </h2>
